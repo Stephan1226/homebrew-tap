@@ -8,7 +8,7 @@ cask "daily-report" do
   homepage "https://github.com/Stephan1226/daily-report-releases"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "Daily Report.app"
 
