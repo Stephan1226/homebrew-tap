@@ -14,9 +14,8 @@ cask "daily-report" do
 
   # Apple 공증을 받지 않은 앱이라 다운로드 격리 표시를 지워서
   # "확인되지 않은 개발자" 경고 없이 바로 열리게 한다.
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Daily Report.app"]
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/Daily Report.app"]
   end
 
   # brew uninstall --zap 일 때만 지운다. 써 둔 일지와 서명이 여기에 있다.
