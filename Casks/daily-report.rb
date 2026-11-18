@@ -1,6 +1,6 @@
 cask "daily-report" do
-  version "0.1.0"
-  sha256 "16e4885924ca2ea125f45672a482017e1c27c35d484429c9e6c02c4d4e0ce80a"
+  version "0.1.1"
+  sha256 "f090aaa317071dd6ecf6fb414f5bce554599fef31aa5fb05ca1ec023e53ca4c8"
 
   url "https://github.com/Stephan1226/daily-report-releases/releases/download/v#{version}/Daily-Report-#{version}-arm64.zip"
   name "Daily Report"
