@@ -1,6 +1,6 @@
 cask "device-preview" do
-  version "0.1.1"
-  sha256 "9fda30b6a6954b5e601d0470b31642589d33260866625e0bcf29bab659f73eed"
+  version "0.2.0"
+  sha256 "ada6858dd7c31b435157fedb6ba83a61139907426c6f7a550e1b4972038cc23c"
 
   url "https://github.com/Stephan1226/device-preview/releases/download/v#{version}/Device-Preview-#{version}.zip"
   name "Device Preview"
